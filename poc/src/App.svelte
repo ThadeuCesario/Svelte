@@ -6,6 +6,7 @@
 	import ParentComponent from './components/ParentComponent/ParentComponent.svelte'
 	import IfBlock from './components/IfBlocks/IfBlock.svelte'
 	import ElseBlock from './components/ElseBlocks/ElseBlocks.svelte'
+	import ElseIfBlock from './components/ElseIfBlocks/ElseIfBlocks.svelte'
 	let name = "thadeu";
 </script>
 
@@ -18,6 +19,7 @@
 	<ParentComponent />
 	<IfBlock />
 	<ElseBlock />
+	<ElseIfBlock />
 </main>
 
 <style>
