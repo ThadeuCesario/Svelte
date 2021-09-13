@@ -5,6 +5,7 @@
 	import ReactiveStatements from './components/ReactiveStatements/ReactiveStatements.svelte'
 	import ParentComponent from './components/ParentComponent/ParentComponent.svelte'
 	import IfBlock from './components/IfBlocks/IfBlock.svelte'
+	import ElseBlock from './components/ElseBlocks/ElseBlocks.svelte'
 	let name = "thadeu";
 </script>
 
@@ -16,6 +17,7 @@
 	<ReactiveStatements />
 	<ParentComponent />
 	<IfBlock />
+	<ElseBlock />
 </main>
 
 <style>
