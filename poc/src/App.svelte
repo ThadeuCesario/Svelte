@@ -3,6 +3,7 @@
 	import ReactiveAssignments from './components/ReactiveAssignments/ReactiveAssignments.svelte'
 	import ReactiveDeclarations from './components/ReactiveDeclarations/ReactiveDeclarations.svelte'
 	import ReactiveStatements from './components/ReactiveStatements/ReactiveStatements.svelte'
+	import ParentComponent from './components/ParentComponent/ParentComponent.svelte'
 	let name = "thadeu";
 </script>
 
@@ -12,6 +13,7 @@
 	<ReactiveAssignments />
 	<ReactiveDeclarations />
 	<ReactiveStatements />
+	<ParentComponent />
 </main>
 
 <style>
