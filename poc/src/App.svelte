@@ -2,6 +2,7 @@
 	import Name from './components/Name/Name.svelte'
 	import ReactiveAssignments from './components/ReactiveAssignments/ReactiveAssignments.svelte'
 	import ReactiveDeclarations from './components/ReactiveDeclarations/ReactiveDeclarations.svelte'
+	import ReactiveStatements from './components/ReactiveStatements/ReactiveStatements.svelte'
 	let name = "thadeu";
 </script>
 
@@ -10,6 +11,7 @@
 	<Name name="<strong>thadeu</strong>"/>
 	<ReactiveAssignments />
 	<ReactiveDeclarations />
+	<ReactiveStatements />
 </main>
 
 <style>
